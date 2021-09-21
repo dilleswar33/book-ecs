@@ -13,7 +13,8 @@ public class BookController {
 			new Book(1,"Nemesis","Isaac Asimov"),
 			new Book(2,"Great Expectations","Charles Dickens"),
 			new Book(3,"The Chronicles of Narnia","C.S. Lewis"),
-			new Book(4,"The Answers To Big Questions","Stephen Hawking")
+			new Book(4,"The Answers To Big Questions","Stephen Hawking"),
+			new Book(5,"Beyond Time","Albert Einstein")
 	};
 	
 	@GetMapping("/books")
